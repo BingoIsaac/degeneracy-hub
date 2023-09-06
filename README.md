@@ -42,6 +42,6 @@ These ConVars are reserved for Isaac only since they can only be executed by him
 - `boderman_target_players [0/1]` - Allow or disallow Richard Boderman to attack players. (default: 1)
 - `boderman_target_player_specific [<SteamID64>]` - Force Richard Boderman to attack a specific player with their SteamID64. (default: )
 - `boderman_move_speed [<Number>]` - The speed Richard Boderman will move at while pursuing enemies. (default: 900)
-- `pm_sv_climbvel [<Number>]` - The amount of velocity to apply while climbing with Wheatley's Parkour.
-- `pm_sv_maxspeed [<Number>]` - Clamps running speed for Wheatley's Parkour.
-- `pm_sv_maxjump [<Number>]` - Clamps jumping velocity for Wheatley's Parkour.
+- `pm_sv_climbvel [<Number>]` - The amount of velocity to apply while climbing with Wheatley's Parkour. (default: 160)
+- `pm_sv_maxspeed [<Number>]` - Clamps running speed for Wheatley's Parkour. (default: 500)
+- `pm_sv_maxjump [<Number>]` - Clamps jumping velocity for Wheatley's Parkour. (default: 650)
